@@ -76,6 +76,19 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		
 	</build>
+
+
+                <distributionManagement>
+	<repository>
+	    <id>maven-releases</id>
+	    <url>http://43.204.214.186:8081/repository/maven-releases/</url>
+	</repository>	
+	<snapshotRepository>
+	    <id>maven.snapshorts</id>
+	    <url>http://43.204.214.186:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>	
+    </distributionManagement>
 
 </project>
